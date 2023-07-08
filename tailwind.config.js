@@ -20,8 +20,15 @@ module.exports = {
       cyan: "hsl(178, 100%, 50%)",
       "dark-blue-1": "hsl(215, 32%, 27%)", // Line
       "dark-blue-2": "hsl(216, 50%, 16%)", // Card Background
-      "dark-blue-3": "hsl(215, 32%, 27%)", // Main Background
+      "dark-blue-3": "hsl(217, 54%, 11%)", // Main Background
       white: "hsl(0, 0%, 100%)",
+    },
+    screens: {
+      sm: "375px",
+      lg: "1440px",
+    },
+    fontSize: {
+      base: "1.125rem",
     },
     extend: {
       keyframes: {
