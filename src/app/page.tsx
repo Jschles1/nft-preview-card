@@ -21,7 +21,7 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen mx-auto max-w-[1440px] py-[3.875rem] px-6">
+    <main className="min-h-screen mx-auto max-w-[1440px] py-[3.875rem] px-6 lg:py-[9.5rem] lg:px-[34.063rem] max-h-[596px]">
       <div className="w-full bg-dark-blue-2 text-white h-full rounded-[0.938rem] p-6">
         <Link
           href="/"
@@ -48,11 +48,11 @@ export default function Home() {
             Equilibrium #3429
           </Link>
         </h1>
-        <p className="text-base text-soft-blue mt-[0.75rem]">
+        <p className="text-base text-soft-blue mt-[0.75rem] lg:mt-4">
           Our Equilibrium collection promotes balance and calm.
         </p>
 
-        <div className="my-4 flex items-center justify-between">
+        <div className="my-4 lg:my-6 flex items-center justify-between">
           <div className="flex items-center">
             <Image src={EthIcon} alt="Ethereum" />
             <span className="text-[0.938rem] ml-2 text-cyan">0.041 ETH</span>
